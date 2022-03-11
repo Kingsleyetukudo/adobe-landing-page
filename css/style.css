@@ -399,6 +399,7 @@ nav button{
 
 .container-4{
     background-color: #0000ff;
+    padding: 80px 0;
 
 }
 .cards-holder{
@@ -499,6 +500,7 @@ nav button{
     justify-items: center;
     width: 80%;
     margin: auto;
+    margin-top: 50px;
 }
 
 
@@ -513,7 +515,7 @@ nav button{
 
 .hold-1{
     width: 80%;
-    margin: 40px auto;
+    margin: 70px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -559,7 +561,7 @@ nav button{
 /* Ready to get started */
 
 .get-started{
-    margin: 70px 0;
+    margin: 100px 0;
     text-align: center;
 }
 
@@ -596,6 +598,47 @@ nav button{
     color: #fff;
     background-color: #333232;
 }
+
+
+.bg-img{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-img img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.creativity-holder{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.creativity-holder img{
+    width: 100px;
+}
+
+.creativity-holder h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+.cards-holder p{
+    font-size: 14px;
+    margin: 20px;
+}
+
+.creativity-holder a{
+    color: #0000ff;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+
+
 
 
 
