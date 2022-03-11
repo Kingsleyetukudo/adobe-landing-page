@@ -402,7 +402,6 @@ nav button{
 
 }
 .cards-holder{
-    border: 2px solid red;
     width: 80%;
     margin: auto;
 }
@@ -542,10 +541,6 @@ nav button{
     justify-content: center;
 }
 
-.text-box, .img-box{
-    border: 2px solid red;
-}
-
 .text-box-1 h1{
     font-size: 30px;
     font-family: 'poppins';
@@ -559,6 +554,47 @@ nav button{
 .text-box-1 a{
     color: #0000ff;
     font-size: 16px;
+}
+
+/* Ready to get started */
+
+.get-started{
+    margin: 70px 0;
+    text-align: center;
+}
+
+.get-started a{
+    margin-top: 50px;
+    margin-right: 15px;
+}
+.get-started .bg-in{
+    padding: 5px 10px;
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid #0000ff;
+}
+
+.get-started .b-in{
+    padding: 5px 10px;
+    border: 2px solid #333232;
+    color: #333232;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.get-started .bg-in:hover{
+    border: 2px solid #1818f3;
+    color: #fff;
+    background-color: #1818f3;
+}
+
+.get-started .b-in:hover{
+    border: 2px solid #333232;
+    color: #fff;
+    background-color: #333232;
 }
 
 
