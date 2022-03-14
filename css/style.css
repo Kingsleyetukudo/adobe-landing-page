@@ -162,6 +162,7 @@ nav button{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
   }
   .bg-video{
     position: absolute;
@@ -182,7 +183,7 @@ nav button{
       font-family: 'Montserrat';
       font-weight: 800;
       color: #fff;
-      /* margin: 20px 0; */
+      margin: 20px 0;
   }
 
   .video-text p{
@@ -190,7 +191,7 @@ nav button{
       font-size: 18px;
       font-weight: 800;
       font-family: 'Montserrat';
-      /* margin: 0 20px; */
+      margin: 0 20px;
       /* width: 100%; */
       /* padding: 0 50px; */
       margin-bottom: 30px;
@@ -228,6 +229,38 @@ nav button{
       margin-top: 60px;
       color: #0000ff;
   }
+
+
+
+  .google-badges{
+      width: 85%;
+      margin: auto;
+      background:#8d8989;
+      display: none;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 20px;
+
+  }
+
+  .download-icons img{
+      margin: 20px;
+  }
+
+  .download-icons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .google-badges a{
+      color: #0000ff;
+      font-size: 16px;
+  }
+
+  
 
 
   .con-1{
@@ -448,6 +481,10 @@ nav button{
     padding: 50px;
     color: #fff;
     font-family: 'poppins';
+}
+
+.card-path .no-margin{
+    margin: 0;
 }
 
 
@@ -918,6 +955,7 @@ footer{
         font-weight: 800;
         font-family: 'Montserrat';
         margin-bottom: 30px;
+        padding: 10px;
     }
 
 .hero-video{
@@ -998,6 +1036,19 @@ footer{
     width: 87%;
     align-items: flex-start;
 }
+
+.card{
+    width: 90%;
+}
+
+.creativity-holder h1{
+    font-size: 30px;
+}
+
+.google-badges .text{
+    text-align: center;
+}
+
 
 }
 
@@ -1093,4 +1144,18 @@ footer{
           margin-top: 50px;
           display: block;
       }
+
+      .small-screen-links h5{
+          padding-left: 15px;
+      }
+      .small-screen-links i{
+          margin-right: 20px;
+      }
+
+
+      .google-badges{
+        display: flex;
+  
+    }
+  
 }
