@@ -97,7 +97,7 @@ header{
     align-items: center;
     justify-content: center;
     background: #f3f0f0;
-    height: 10vh;
+    /* height: 10vh; */
 }
 
 nav{
@@ -154,9 +154,9 @@ nav button{
 /* Background Video section */
 
 .hero-video{
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
-    background-image: linear-gradient(rgba(12, 3, 51, 0.3),rgba(12,3,51,0.3));
+    /* background-image: linear-gradient(rgba(12, 3, 51, 0.3),rgba(12,3,51,0.3)); */
     position: relative;
     padding: 0 5%;
     display: flex;
@@ -182,7 +182,7 @@ nav button{
       font-family: 'Montserrat';
       font-weight: 800;
       color: #fff;
-      margin: 20px 0;
+      /* margin: 20px 0; */
   }
 
   .video-text p{
@@ -190,7 +190,7 @@ nav button{
       font-size: 18px;
       font-weight: 800;
       font-family: 'Montserrat';
-      margin: 0 20px;
+      /* margin: 0 20px; */
       /* width: 100%; */
       /* padding: 0 50px; */
       margin-bottom: 30px;
