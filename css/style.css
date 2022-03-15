@@ -119,7 +119,7 @@ nav li{
 
 nav button{
     padding: 5px 10px;
-    background: #0000ff;
+    background: #00449d;
     border-radius: 30px;
     border: none;
     color: #fff;
@@ -154,28 +154,33 @@ nav button{
 /* Background Video section */
 
 .hero-video{
-    /* width: 100%; */
+    width: 100%;
     height: 100vh;
     /* background-image: linear-gradient(rgba(12, 3, 51, 0.3),rgba(12,3,51,0.3)); */
     position: relative;
-    padding: 0 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* padding: 0 5%; */
+   
     margin-bottom: 80px;
+    box-sizing: border-box;
   }
   .bg-video{
     position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+    /* right: 0;
+    bottom: 0; */
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
   }
 
   .video-text{
     position: absolute;
     z-index: 10;
-    text-align: center;
-    width: 60%;
+    width: 100%;
+    height: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .video-text h1{
@@ -183,7 +188,7 @@ nav button{
       font-family: 'Montserrat';
       font-weight: 800;
       color: #fff;
-      margin: 20px 0;
+      /* margin: 20px auto; */
   }
 
   .video-text p{
@@ -209,13 +214,13 @@ nav button{
   }
 
   .btn .color{
-      background: #0000ff;
+      background: #00449d;
       border: none;
       padding: 15px 20px;
   }
 
   .btn .color:hover{
-      background-color: #1818f3;
+      background-color: #5656db;
       color: #fff;
   }
 
@@ -227,15 +232,23 @@ nav button{
 
   .arrow-down{
       margin-top: 60px;
-      color: #0000ff;
+      color: #00449d;
   }
 
+  .download{
+      display: flex;
+      flex-direction: column;
+  }
 
-
+  .download .silde{
+      width: 85%;
+      margin:  auto;
+      height: 10px;
+  }
   .google-badges{
       width: 85%;
       margin: auto;
-      background:#8d8989;
+      background:#d0d1d1;
       display: none;
       justify-content: space-around;
       align-items: center;
@@ -256,7 +269,7 @@ nav button{
   }
 
   .google-badges a{
-      color: #0000ff;
+      color: #00449d;
       font-size: 16px;
   }
 
@@ -302,7 +315,7 @@ nav button{
   }
 
   .nav-three a{
-      color: #0000ff;
+      color: #00449d;
       font-weight: 500;
   }
 
@@ -317,7 +330,7 @@ nav button{
   }
 
  .nav-three-small a{
-    color: #0000ff;
+    color: #00449d;
     font-weight: 500;
 }
 
@@ -372,12 +385,12 @@ nav button{
 }
 
 .box4{
-    background: linear-gradient(rgb(4, 0, 252), rgb(106, 76, 218));
+    background: linear-gradient(#00449d, rgb(106, 76, 218));
     color: #fff;
 }
 
 .box2 a, .box3 a{
-    color: #0000ff;
+    color: #00449d;
     font-size: 16px;
     font-family: 'Montserrat';
 }
@@ -431,10 +444,10 @@ nav button{
 /* Blue container */
 
 .container-4{
-    background-color: #0000ff;
-    padding: 80px 0;
+    background-color: #1e76e3;
+    padding: 60px 0;
+ }
 
-}
 .cards-holder{
     width: 80%;
     margin: auto;
@@ -458,7 +471,6 @@ nav button{
     color: #fff;
     margin: 5px;
 }
-
 .card-path{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -467,16 +479,23 @@ nav button{
 }
 
 .card-1{
-    background-color: #010130;
+    background-color: #00449d;
     border-radius: 5px;
     padding: 50px;
     color: #fff;
     font-family: 'poppins';
 }
 
+.card-links{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: 10px;
+}
+
 
 .card-2{
-    background-color: #04045e2f;
+    background-color: #1a71df;
     border-radius: 5px;
     padding: 50px;
     color: #fff;
@@ -488,16 +507,13 @@ nav button{
 }
 
 
-.card-1 a{
-    margin-right: 15px;
-}
 .bg-in{
     padding: 5px 10px;
     background-color: #fff;
-    color: #0000ff;
-    border-radius: 50px;
+    color: #00449d;
+    border-radius: 25px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     border: 2px solid #fff;
 }
 
@@ -506,7 +522,7 @@ nav button{
     border: 2px solid #fff;
     color: #fff;
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .bg-in:hover, .bg-in:focus{
@@ -583,7 +599,6 @@ nav button{
 .text-box-1 h1{
     font-size: 30px;
     font-family: 'poppins';
-    margin: 10px;
 }
 .text-box-1 p{
     width: 80%;
@@ -591,7 +606,7 @@ nav button{
 }
 
 .text-box-1 a{
-    color: #0000ff;
+    color: #00449d;
     font-size: 16px;
 }
 
@@ -608,12 +623,12 @@ nav button{
 }
 .get-started .bg-in{
     padding: 5px 10px;
-    background-color: #0000ff;
+    background-color: #00449d;
     color: #fff;
     border-radius: 50px;
     font-weight: 600;
     font-size: 14px;
-    border: 2px solid #0000ff;
+    border: 2px solid #00449d;
 }
 
 .get-started .b-in{
@@ -625,9 +640,9 @@ nav button{
 }
 
 .get-started .bg-in:hover{
-    border: 2px solid #1818f3;
+    border: 2px solid #00449d;
     color: #fff;
-    background-color: #1818f3;
+    background-color: #00449d;
 }
 
 .get-started .b-in:hover{
@@ -670,7 +685,7 @@ nav button{
 }
 
 .creativity-holder a{
-    color: #0000ff;
+    color: #00449d;
     font-family: 'poppins';
     font-size: 14px;
 }
@@ -817,7 +832,7 @@ align-items: center;
     align-items: center;
     width: 96%;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     color: #777373;
     /* height: 50vh; */
 }
@@ -923,7 +938,7 @@ footer{
 
 
 
-@media (max-width:619px){
+@media (max-width:600px){
 
     .main-nav{
         display: none;
@@ -946,7 +961,8 @@ footer{
 
     .video-text h1{
         font-size: 30px;
-        font-weight: 800;
+        font-weight: 700;
+        text-align: center;
     }
 
     .video-text p{
@@ -956,12 +972,18 @@ footer{
         font-family: 'Montserrat';
         margin-bottom: 30px;
         padding: 10px;
+        text-align: center;
     }
 
-.hero-video{
-    /* width: 100%; */
-    height: 50vh;
-  }
+
+    .video-text img{
+        width: 100px;
+    }
+
+    .hero-video{
+    width: 100%;
+    /* height: 50vh; */
+    } 
 
   .btn{
       display: flex;
@@ -1023,18 +1045,19 @@ footer{
 }
 
 .text-box-1 h1{
-    /* font-size: 20px; */
-    text-align: end;
+    font-size: 20px;
+    width: 100%;
 }
 
-.text-box-1 p{
+.text-box-1 p, .text-box-1 a{
     width: 100%;
     text-align: end;
 }
 
-.text-box-1 span{
-    width: 87%;
-    align-items: flex-start;
+.text-box-1{
+    width: 100%;
+    align-items: center;
+    padding:10px
 }
 
 .card{
@@ -1047,6 +1070,10 @@ footer{
 
 .google-badges .text{
     text-align: center;
+}
+
+.apps{
+    display: none;
 }
 
 
@@ -1133,9 +1160,7 @@ footer{
         justify-content: center;
     }
 
-    .video-text{
-        width: 100%;
-      }
+   
 
       .quick-links{
           display: none;
