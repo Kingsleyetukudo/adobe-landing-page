@@ -1105,7 +1105,7 @@ footer{
     }
 }
 
-@media(min-aspect-ratio: 16/9){
+/* @media(min-aspect-ratio: 16/9){
     .bg-video{
         width: 100%;
         height: auto;
@@ -1116,7 +1116,7 @@ footer{
       width: auto;
       height: 100%;
   }
-}
+} */
 
 @media (max-width:1195px){
     .top-nav{
