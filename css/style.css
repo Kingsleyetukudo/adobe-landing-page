@@ -274,7 +274,10 @@ nav button{
   }
 
   
-
+    main{
+        width: 100vw;
+        height: 100vh;
+    }
 
   .con-1{
       width: 80%;
