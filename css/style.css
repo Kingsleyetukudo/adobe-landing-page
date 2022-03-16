@@ -65,7 +65,7 @@ a{
 .top-link ul{
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0;
 }
 
@@ -236,7 +236,7 @@ nav button{
   }
 
   .download{
-      display: flex;
+      display: none;
       flex-direction: column;
   }
 
@@ -1181,6 +1181,10 @@ footer{
       .google-badges{
         display: flex;
   
+    }
+
+    .download{
+        display: flex;
     }
   
 }
