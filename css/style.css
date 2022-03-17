@@ -337,6 +337,11 @@ nav button{
   .nav-three a{
       color: #00449d;
       font-weight: 500;
+      
+  }
+
+  .nav-three .active{
+    border-bottom: 1px solid #00449d;
   }
 
 
